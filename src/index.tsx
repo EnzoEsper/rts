@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UserSearch from './classes/UserSearch';
-import EventComponent from './events/EventComponent';
+import UserSearch from './refs/UserSearch';
 
 const users = [
   { name: 'Sarah', age: 20 },
@@ -12,7 +11,7 @@ const users = [
 const App = () => {
   return(
     <div>
-      <UserSearch users={users}/>
+      <UserSearch />
     </div>
   )
 }
